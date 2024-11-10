@@ -11,6 +11,7 @@ c1 <- 40 - x
 c2 <- 60 - 2 * x
 
 # Calculate the minimum values
+y_min <- pmin(c1, c2)
 y_min_value <- min(c1, c2)
 
 # Find intersection
